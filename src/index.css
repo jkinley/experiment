@@ -1,4 +1,18 @@
-.contain {
-    width: min(100% - 2rem, 75ch);
-    margin-inline: auto;
+
+:root {
+    --body-background-color: #eee;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: var(--body-background-color);
+    line-height: 1.5rem;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
 }
